@@ -1,0 +1,1484 @@
+22:37:30.695 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:37:36.046 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:37:38.017 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:37:38.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 628
+1 < 200
+1 < Date: Wed, 14 Jun 2023 17:07:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1686571450
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 17791
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E6jor%2B8zwNDjPC50MZbygx%2Bcyfqmc11vFcDlLp2dtz0KFKrzEvXY%2FEEFHa8vo31xSCNh%2F0stynx7gSAFDzgI5TnJJn2FtiszQPAnLuosoo9vK3I9iLbyqpliCi5%2BK7AkGHjhO76dMKvsaGKAbt8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d742bb8ffed8f8e-KNU
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+22:37:38.882 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:37:39.107 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure, http call failed after 214 milliseconds for url: https://jsonplaceholder.typicode.com/users/1
+22:37:39.136 [main] ERROR com.intuit.karate - classpath:examples/users/users.feature:15
+When method get
+http call failed after 214 milliseconds for url: https://jsonplaceholder.typicode.com/users/1
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+classpath:examples/users/users.feature:15
+22:37:39.273 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:37:39.611 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+22:37:39.737 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure, http call failed after 136 milliseconds for url: https://jsonplaceholder.typicode.com/users
+22:37:39.738 [main] ERROR com.intuit.karate - classpath:examples/users/users.feature:36
+When method post
+http call failed after 136 milliseconds for url: https://jsonplaceholder.typicode.com/users
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+classpath:examples/users/users.feature:36
+23:04:05.331 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+23:04:06.485 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:04:06.509 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686764046487
+23:04:06.606 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+23:04:09.963 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:04:11.257 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:04:12.504 [main] DEBUG com.intuit.karate - response time in milliseconds: 1239
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Wed, 14 Jun 2023 17:34:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+23:04:14.658 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:29:55.165 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:29:59.383 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:29:59.466 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805199407
+10:29:59.972 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:30:14.694 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:17.431 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:30:20.342 [main] DEBUG com.intuit.karate - response time in milliseconds: 2882
+1 < 404
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:00:20 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 155
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Security-Policy: default-src 'none'
+1 < X-Content-Type-Options: nosniff
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /v1/v1/airlines/1</pre>
+</body>
+</html>
+
+
+10:30:21.048 [main] ERROR com.intuit.karate - src/test/java/Airline/getAirlinedetails.feature:8
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 2882, url: https://api.instantwebtools.net/v1/v1/airlines/1, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /v1/v1/airlines/1</pre>
+</body>
+</html>
+
+src/test/java/Airline/getAirlinedetails.feature:8
+10:30:23.991 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:30:50.085 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:30:51.369 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:30:51.421 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805251404
+10:30:51.557 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:30:55.611 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:30:57.037 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:30:58.197 [main] DEBUG com.intuit.karate - response time in milliseconds: 1153
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:00:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:31:01.161 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:33:20.211 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:33:21.312 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:33:21.335 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805401315
+10:33:21.580 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:33:25.461 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:33:27.024 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:33:42.582 [main] DEBUG com.intuit.karate - response time in milliseconds: 15549
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:03:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:33:43.495 [main] ERROR com.intuit.karate - src/test/java/Airline/getAirlinedetails.feature:11
+And match response == "{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}"
+js failed:
+>>>>
+01: "{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:3 Expected ; but found id
+"{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}"
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1750)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:175)
+
+src/test/java/Airline/getAirlinedetails.feature:11
+10:33:45.519 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:34:09.073 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:34:10.392 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:34:10.433 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805450394
+10:34:10.648 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:34:14.768 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:34:16.397 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:34:17.427 [main] DEBUG com.intuit.karate - response time in milliseconds: 1022
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:04:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:34:20.657 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:35:15.805 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:35:16.801 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:35:16.821 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805516803
+10:35:16.919 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:35:19.938 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:35:21.185 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:35:22.229 [main] DEBUG com.intuit.karate - response time in milliseconds: 1035
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:05:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:35:22.643 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:35:22.653 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:35:24.574 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:37:25.186 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:37:26.313 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:37:26.585 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805646316
+10:37:26.924 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:37:30.214 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:37:31.499 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:37:32.554 [main] DEBUG com.intuit.karate - response time in milliseconds: 1047
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:07:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:37:32.938 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:37:32.950 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:37:36.233 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:41:58.630 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:42:00.665 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:42:00.758 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805920676
+10:42:01.001 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:42:06.437 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:42:08.535 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:42:11.451 [main] DEBUG com.intuit.karate - response time in milliseconds: 2903
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:12:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:42:11.957 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:42:11.974 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:42:11.988 [main] INFO  com.intuit.karate - [print] {
+  "Server": [
+    "nginx/1.18.0"
+  ],
+  "Date": [
+    "Thu, 15 Jun 2023 05:12:11 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Content-Length": [
+    "279"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "X-Powered-By": [
+    "Express"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "ETag": [
+    "W/\"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY\""
+  ],
+  "Set-Cookie": [
+  ]
+}
+ 
+10:42:14.723 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:43:14.992 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:43:16.358 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:43:16.392 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686805996360
+10:43:16.543 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:43:20.909 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:43:22.400 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:43:23.504 [main] DEBUG com.intuit.karate - response time in milliseconds: 1095
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:13:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:43:24.267 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:43:24.277 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:43:24.289 [main] INFO  com.intuit.karate - [print] {
+  "Server": [
+    "nginx/1.18.0"
+  ],
+  "Date": [
+    "Thu, 15 Jun 2023 05:13:23 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Content-Length": [
+    "279"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "X-Powered-By": [
+    "Express"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "ETag": [
+    "W/\"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY\""
+  ],
+  "Set-Cookie": [
+  ]
+}
+ 
+10:43:24.383 [main] ERROR com.intuit.karate - src/test/java/Airline/getAirlinedetails.feature:16
+And print "Content Type as"responseHeaders['Content-Type'][0]
+js failed:
+>>>>
+01: karate.log('[print]',"Content Type as"responseHeaders['Content-Type'][0])
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:38 Expected , but found responseHeaders
+karate.log('[print]',"Content Type as"responseHeaders['Content-Type'][0])
+                                      ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:243)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/Airline/getAirlinedetails.feature:16
+10:43:27.933 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:43:52.958 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:43:54.632 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:44:01.763 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686806034635
+10:44:01.874 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:44:05.048 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:44:06.324 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:44:07.385 [main] DEBUG com.intuit.karate - response time in milliseconds: 1053
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:14:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:44:07.712 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:44:07.720 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:44:07.726 [main] INFO  com.intuit.karate - [print] {
+  "Server": [
+    "nginx/1.18.0"
+  ],
+  "Date": [
+    "Thu, 15 Jun 2023 05:14:07 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Content-Length": [
+    "279"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "X-Powered-By": [
+    "Express"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "ETag": [
+    "W/\"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY\""
+  ],
+  "Set-Cookie": [
+  ]
+}
+ 
+10:44:07.747 [main] INFO  com.intuit.karate - [print] Content Type asapplication/json; charset=utf-8 
+10:44:09.788 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:45:56.389 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:45:58.525 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:45:58.554 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686806158528
+10:45:58.713 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:46:02.818 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:46:05.426 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:46:06.652 [main] DEBUG com.intuit.karate - response time in milliseconds: 1218
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:16:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:46:07.368 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:46:07.463 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:46:07.478 [main] INFO  com.intuit.karate - [print] {
+  "Server": [
+    "nginx/1.18.0"
+  ],
+  "Date": [
+    "Thu, 15 Jun 2023 05:16:06 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Content-Length": [
+    "279"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "X-Powered-By": [
+    "Express"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "ETag": [
+    "W/\"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY\""
+  ],
+  "Set-Cookie": [
+  ]
+}
+ 
+10:46:07.495 [main] INFO  com.intuit.karate - [print] Content Type as application/json; charset=utf-8 
+10:46:11.394 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:50:48.611 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:50:49.661 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:50:49.685 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686806449664
+10:50:53.987 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:50:55.420 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:50:56.469 [main] DEBUG com.intuit.karate - response time in milliseconds: 1042
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:20:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:50:56.573 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:50:56.586 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:50:57.107 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 504 milliseconds for url: https://api.instantwebtools.net/v1/airlines/1
+10:50:57.137 [main] ERROR com.intuit.karate - src/test/java/Airline/getAirlinedetails.feature:12
+When method get
+http call failed after 504 milliseconds for url: https://api.instantwebtools.net/v1/airlines/1
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+src/test/java/Airline/getAirlinedetails.feature:12
+10:51:00.169 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:52:42.643 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:52:43.675 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:52:43.693 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686806563678
+10:52:46.664 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:52:47.846 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/2
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:52:48.898 [main] DEBUG com.intuit.karate - response time in milliseconds: 1044
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:22:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 296
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"128-GlgZQglSiOiCnHGtDPBZ8BB2qdE"
+{"id":2,"name":"Air India","country":"India","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Air_India_Logo.svg/250px-Air_India_Logo.svg.png","slogan":"Your Palace in the Sky","head_quaters":"Airlines House, New Delhi, India","website":"https://www.airindia.in","established":"1990"}
+
+10:52:48.994 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:52:49.009 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:52:49.474 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 451 milliseconds for url: https://api.instantwebtools.net/v1/airlines/1
+10:52:49.494 [main] ERROR com.intuit.karate - src/test/java/Airline/getAirlinedetails.feature:12
+When method get
+http call failed after 451 milliseconds for url: https://api.instantwebtools.net/v1/airlines/1
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+src/test/java/Airline/getAirlinedetails.feature:12
+10:52:51.728 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:53:09.201 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:53:10.293 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:53:10.317 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686806590296
+10:53:13.539 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:53:14.763 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:53:15.777 [main] DEBUG com.intuit.karate - response time in milliseconds: 1006
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:23:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 279
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY"
+{"id":1,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+10:53:16.130 [main] INFO  com.intuit.karate - [print] Response as showing as [object Object] 
+10:53:16.140 [main] INFO  com.intuit.karate - [print] Response status code as 200 
+10:53:16.147 [main] INFO  com.intuit.karate - [print] {
+  "Server": [
+    "nginx/1.18.0"
+  ],
+  "Date": [
+    "Thu, 15 Jun 2023 05:23:16 GMT"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Content-Length": [
+    "279"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "X-Powered-By": [
+    "Express"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "ETag": [
+    "W/\"117-N5wPyzO4JzUgXx4Zi8zb3Zl1kJY\""
+  ],
+  "Set-Cookie": [
+  ]
+}
+ 
+10:53:16.158 [main] INFO  com.intuit.karate - [print] Content Type as application/json; charset=utf-8 
+10:53:18.157 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+10:53:46.945 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+10:53:47.986 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:53:48.005 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686806627988
+10:53:51.792 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:53:53.001 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/2
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:53:54.015 [main] DEBUG com.intuit.karate - response time in milliseconds: 1007
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:23:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 296
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"128-GlgZQglSiOiCnHGtDPBZ8BB2qdE"
+{"id":2,"name":"Air India","country":"India","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Air_India_Logo.svg/250px-Air_India_Logo.svg.png","slogan":"Your Palace in the Sky","head_quaters":"Airlines House, New Delhi, India","website":"https://www.airindia.in","established":"1990"}
+
+10:53:54.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:53:54.150 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.instantwebtools.net/v1/airlines/1
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:53:54.609 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 441 milliseconds for url: https://api.instantwebtools.net/v1/airlines/1
+10:53:54.654 [main] ERROR com.intuit.karate - src/test/java/Airline/getAirlinedetails.feature:12
+When method get
+http call failed after 441 milliseconds for url: https://api.instantwebtools.net/v1/airlines/1
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+src/test/java/Airline/getAirlinedetails.feature:12
+10:53:56.706 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/getAirlinedetails.feature
+11:00:20.706 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:00:23.440 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:00:23.521 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686807023446
+11:00:23.891 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:00:28.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:00:30.478 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:00:32.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 2165
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:30:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 326
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"146-c/Holhw48NKZNndzZw3/9Xa1hgQ"
+{"_id":"648aa1f87907a53b844aa7cf","id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+11:00:35.390 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:02:26.602 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:02:27.595 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:02:27.619 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686807147597
+11:02:27.743 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+11:02:30.777 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:02:32.223 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 293
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":677890,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:02:32.308 [main] ERROR com.intuit.karate - java.net.UnknownHostException: No such host is known (api.instantwebtools.net), http call failed after 1139 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+11:02:32.338 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:24
+And method post
+http call failed after 1139 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+java.net.UnknownHostException: No such host is known (api.instantwebtools.net)
+src/test/java/Airline/createAirline.feature:24
+11:02:34.332 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:04:04.267 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:04:06.028 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:04:06.133 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686807246030
+11:04:06.347 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+11:04:11.498 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:04:13.377 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 293
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":677891,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:04:15.337 [main] DEBUG com.intuit.karate - response time in milliseconds: 1947
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:34:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 325
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"145-/cfMpilsoMNeFnE8CrAbzzgWRH8"
+{"_id":"648aa2d77907a5d9034aa80d","id":677891,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+11:04:17.242 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:04:43.205 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:04:44.304 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:04:44.326 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686807284306
+11:04:48.125 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:04:49.608 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:04:50.677 [main] DEBUG com.intuit.karate - response time in milliseconds: 1062
+1 < 400
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:34:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 73
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"49-xjKsxJPULeKqbrqiurJFCqpk5MI"
+{"message":"there is an airline registered under same id you've entered"}
+
+11:04:50.854 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:7
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 1062, url: https://api.instantwebtools.net/v1/airlines, response: 
+{"message":"there is an airline registered under same id you've entered"}
+src/test/java/Airline/createAirline.feature:7
+11:04:51.022 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:04:51.047 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 295
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":67789122,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:04:51.513 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 462 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+11:04:51.515 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:24
+And method post
+http call failed after 462 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+src/test/java/Airline/createAirline.feature:24
+11:04:53.298 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:05:14.275 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:05:15.665 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:05:15.699 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686807315667
+11:05:15.834 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+11:05:20.226 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:05:21.936 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 295
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":67789126,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:05:23.091 [main] DEBUG com.intuit.karate - response time in milliseconds: 1137
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:35:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 327
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"147-eKs36axk76uobrxxnChf+AGD/Qk"
+{"_id":"648aa31b7907a554dd4aa821","id":67789126,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+11:05:25.358 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:14:44.319 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:14:45.409 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:14:45.460 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686807885412
+11:14:45.576 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 27
+11:14:49.095 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:14:49.510 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:29
+* def requestPayload ={}
+no step-definition method match found for: def requestPayload ={}
+src/test/java/Airline/createAirline.feature:29
+11:14:51.903 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:17:43.240 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:17:44.350 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:17:44.373 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686808064352
+11:17:44.521 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 27
+11:17:48.287 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:17:48.523 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:29
+* def requestPayload ={}
+no step-definition method match found for: def requestPayload ={}
+src/test/java/Airline/createAirline.feature:29
+11:17:50.544 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:18:51.364 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:18:52.468 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:18:52.491 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686808132471
+11:18:52.653 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 27
+11:18:56.287 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:18:56.499 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:29
+* def requestPayload ={}
+no step-definition method match found for: def requestPayload ={}
+src/test/java/Airline/createAirline.feature:29
+11:18:58.864 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:19:36.067 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:19:37.234 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:19:37.257 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686808177237
+11:19:37.377 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 27
+11:19:40.701 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:19:42.398 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 293
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":67789128,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":1990}
+
+11:19:43.473 [main] DEBUG com.intuit.karate - response time in milliseconds: 1069
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:49:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 327
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"147-lrPHsmjmAt8gTTa7EHxUIIQUdk4"
+{"_id":"648aa6777907a5dddf4aa88c","id":67789128,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+11:19:45.699 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:22:52.226 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:22:54.321 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:22:54.369 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686808374323
+11:22:54.592 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 43
+11:22:59.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:22:59.953 [main] INFO  com.intuit.karate - [print] {
+  "id": 67789128,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": 1990,
+  "address": [
+    {
+      "City": "Bangalore",
+      "State": "KA"
+    },
+    {
+      "City": "Hyderabad",
+      "State": "Telangana"
+    }
+  ]
+}
+ 
+11:23:01.393 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 380
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":67789128,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":1990,"address":[{"City":"Bangalore","State":"KA"},{"City":"Hyderabad","State":"Telangana"}]}
+
+11:23:02.541 [main] DEBUG com.intuit.karate - response time in milliseconds: 1138
+1 < 400
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 05:53:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 73
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"49-xjKsxJPULeKqbrqiurJFCqpk5MI"
+{"message":"there is an airline registered under same id you've entered"}
+
+11:23:02.609 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:65
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 1138, url: https://api.instantwebtools.net/v1/airlines, response: 
+{"message":"there is an airline registered under same id you've entered"}
+src/test/java/Airline/createAirline.feature:65
+11:23:05.331 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:35:16.826 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:35:17.979 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:35:18.009 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809117983
+11:35:18.118 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:35:21.480 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:35:21.780 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:69
+* def requestPayload = read ('Airline/Payloads/CreateAirlinePayload.json')
+js failed:
+>>>>
+01: read ('Airline/Payloads/CreateAirlinePayload.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Airline\Airline\Payloads\CreateAirlinePayload.json (The system cannot find the path specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/createAirline.feature:69
+11:35:24.046 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:35:59.430 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:36:00.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:36:00.768 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809160751
+11:36:00.865 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:36:04.219 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:36:04.569 [main] INFO  com.intuit.karate - [print] {
+  "id": 9793188,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": "1990"
+}
+ 
+11:36:05.896 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":9793188,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:36:07.897 [main] DEBUG com.intuit.karate - response time in milliseconds: 1993
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 06:06:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 326
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"146-tms2gWK+0GQ/rfSk/phPFa4vwz4"
+{"_id":"648aaa5002af2cd076ddc7f6","id":9793188,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+11:36:10.351 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:36:37.575 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:36:38.629 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:36:38.652 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809198631
+11:36:38.758 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:36:41.791 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:36:42.153 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:70
+* set requestPayload.id=8574523
+java.lang.NullPointerException
+src/test/java/Airline/createAirline.feature:70
+11:36:43.957 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:37:31.359 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:37:32.472 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:37:32.496 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809252474
+11:37:32.610 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:37:36.312 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:37:36.674 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:70
+* set requestPayload.id= 8574523
+java.lang.NullPointerException
+src/test/java/Airline/createAirline.feature:70
+11:37:38.458 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:38:51.222 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:38:52.637 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:38:52.667 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809332639
+11:38:52.822 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:38:56.324 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:38:56.717 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:70
+* set requestPayload.id= 97931890
+java.lang.NullPointerException
+src/test/java/Airline/createAirline.feature:70
+11:38:58.923 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:40:19.721 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:40:20.870 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:40:20.927 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809420872
+11:40:21.070 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:40:24.992 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:40:25.366 [main] INFO  com.intuit.karate - [print] {
+  "id": 97931890,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": "1990"
+}
+ 
+11:40:26.766 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 295
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":97931890,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:40:27.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 1146
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 06:10:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 327
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"147-iIorlt69KntltM79TIorCwn3djc"
+{"_id":"648aab5402af2c7ae8ddc81a","id":97931890,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+11:40:30.052 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:41:23.865 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:41:25.787 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:41:25.905 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809485789
+11:41:26.243 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 67
+11:41:31.788 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:41:32.278 [main] INFO  com.intuit.karate - [print] {
+  "id": 97931890,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": "1990"
+}
+ 
+11:41:33.979 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 295
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":97931890,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+11:41:35.166 [main] DEBUG com.intuit.karate - response time in milliseconds: 1180
+1 < 400
+1 < Server: nginx/1.18.0
+1 < Date: Thu, 15 Jun 2023 06:11:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 73
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"49-xjKsxJPULeKqbrqiurJFCqpk5MI"
+{"message":"there is an airline registered under same id you've entered"}
+
+11:41:35.257 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:74
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 1180, url: https://api.instantwebtools.net/v1/airlines, response: 
+{"message":"there is an airline registered under same id you've entered"}
+src/test/java/Airline/createAirline.feature:74
+11:41:39.681 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:45:37.599 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:45:38.696 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:45:38.717 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809738699
+11:45:38.812 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 90
+11:45:41.826 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:45:42.169 [main] INFO  com.intuit.karate - [print] {
+  "id": 9793188,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": "1990",
+  "CEO": "vijay"
+}
+ 
+11:45:44.043 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:47:55.473 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:47:56.685 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:47:56.711 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809876687
+11:47:56.828 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 90
+11:48:00.861 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:48:01.424 [main] ERROR com.intuit.karate - src/test/java/Airline/createAirline.feature:93
+* set requestPayload.CEO = 'vijay' # we can add user input field and value
+js failed:
+>>>>
+01: 'vijay' # we can add user input field and value
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ; but found error
+'vijay' # we can add user input field and value
+        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2066)
+- com.intuit.karate.core.ScenarioEngine.set(ScenarioEngine.java:1558)
+
+src/test/java/Airline/createAirline.feature:93
+11:48:04.138 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:49:25.843 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:49:26.993 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:49:27.019 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686809966996
+11:49:27.131 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 90
+11:49:30.839 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:49:31.184 [main] INFO  com.intuit.karate - [print] {
+  "id": 9793188,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": "1990",
+  "CEO": "vijay",
+  "foo": {
+    "foo1": {
+      "foo2": "boo2"
+    }
+  }
+}
+ 
+11:49:33.003 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+11:50:17.409 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+11:50:18.604 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:50:18.634 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1686810018606
+11:50:18.771 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 90
+11:50:22.485 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:50:22.840 [main] INFO  com.intuit.karate - [print] {
+  "id": 9793188,
+  "name": "Sri Lankan Airways",
+  "country": "Sri Lanka",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+  "slogan": "From Sri Lanka",
+  "head_quaters": "Katunayake, Sri Lanka",
+  "website": "www.srilankaairways.com",
+  "established": "1990",
+  "CEO": "vijay",
+  "foo": {
+    "foo1": {
+      "foo2": "boo1"
+    }
+  }
+}
+ 
+11:50:24.862 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
