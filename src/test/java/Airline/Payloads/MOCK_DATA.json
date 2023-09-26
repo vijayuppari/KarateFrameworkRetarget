@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "fn": "Kimberlee",
+    "isManager": true
+  },
+  {
+    "id": 2,
+    "fn": "Tierney",
+    "isManager": false
+  }
+]

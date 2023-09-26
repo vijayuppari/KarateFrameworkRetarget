@@ -15,6 +15,7 @@ Feature: Create Dynamic data using JavaFaker
     * def datafaker = Java.type("Utils.RandomGenerator")
     * def idvalue  = datafaker.getRandomdigit(5)
     * def name  = datafaker.getFullName()
+
     * set jsonObjectPayload
       | path | value   |
       | id   | idvalue |

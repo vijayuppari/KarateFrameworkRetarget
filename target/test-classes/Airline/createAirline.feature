@@ -40,7 +40,7 @@ Feature: Create Airline
     And method post
     Then status 200
 
-  Scenario: Create Airline with Creating Json Payload with addition fields into the payload
+  Scenario: Create Airline with Creating Json Payload with additional fields into the payload
     Given url 'https://api.instantwebtools.net/v1/airlines'
     * def requestPayload = {}
     * requestPayload.id= 67789128
@@ -87,7 +87,7 @@ Feature: Create Airline
     And method post
     Then status 200
 
-  Scenario: Create Airline Read Json from external files and set user field and value to Jsoon
+  Scenario: Create Airline Read Json from external files and set user field and value to Json
     Given url 'https://api.instantwebtools.net/v1/airlines'
     * def requestPayload = read ('Payloads/CreateAirlinePayload.json')
     * set requestPayload.CEO = 'vijay'
@@ -101,4 +101,12 @@ Feature: Create Airline
     """
     * set requestPayload.foo.foo1.foo2 = 'boo1'
     * print requestPayload
+
+  Scenario: Read data from Karate Configfile
+    Given url createAirlineurl
+    * print 'url is ' , createAirlineurl
+    * print 'Varname is ' + myVarName
+    When request {"id":1249884,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+    And method post
+    Then status 200
 

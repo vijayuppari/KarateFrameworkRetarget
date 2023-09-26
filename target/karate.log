@@ -1482,3 +1482,2612 @@ src/test/java/Airline/createAirline.feature:93
 }
  
 11:50:24.862 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+13:54:10.985 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+13:54:12.182 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:54:12.210 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854252188
+13:54:12.555 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+13:54:16.804 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:54:19.295 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+13:54:45.431 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+13:54:46.325 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/Airline/Nestedcomplexjsoncreation.feature - mismatched input '*' expecting <EOF>
+13:55:05.423 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+13:55:06.444 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:55:06.466 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854306447
+13:55:06.558 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+13:55:09.963 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:55:10.391 [main] INFO  com.intuit.karate - [print] {
+  "id": 1100,
+  "name": "vijay kumar"
+}
+ 
+13:55:11.931 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+13:57:13.504 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+13:57:14.518 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:57:14.535 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854434521
+13:57:14.633 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+13:57:18.006 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:57:18.425 [main] INFO  com.intuit.karate - [print] {
+  "id": 1100,
+  "name": "vijay kumar",
+  "address": {
+    "city": "BLR",
+    "state": "KA"
+  }
+}
+ 
+13:57:19.927 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+13:58:52.592 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+13:58:53.634 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:58:53.654 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854533637
+13:58:53.760 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10
+13:58:56.833 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:58:57.172 [main] INFO  com.intuit.karate - [print] {
+  "id": 1100,
+  "name": "vijay kumar",
+  "address": [
+    {
+      "primary": {
+        "city": "BLR",
+        "state": "KA"
+      }
+    },
+    {
+      "secondary": {
+        "city": "HYD",
+        "state": "TS"
+      }
+    }
+  ]
+}
+ 
+13:58:58.864 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+14:02:15.546 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:02:17.031 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:02:17.093 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854737034
+14:02:17.360 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 30
+14:02:22.676 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:02:23.121 [main] INFO  com.intuit.karate - [print] {
+  "id": "HarishKumar",
+  "name": "HarishKumar",
+  "address": [
+    {
+      "primary": {
+        "city": "BLR",
+        "state": "KA"
+      }
+    },
+    {
+      "secondary": {
+        "city": "HYD",
+        "state": "TS"
+      }
+    }
+  ]
+}
+ 
+14:02:25.425 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+14:03:13.220 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:03:14.214 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:03:14.234 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854794217
+14:03:14.331 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 30
+14:03:17.052 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:03:17.414 [main] INFO  com.intuit.karate - [print] {
+  "id": 200,
+  "name": "HarishKumar",
+  "address": [
+    {
+      "primary": {
+        "city": "BLR",
+        "state": "KA"
+      }
+    },
+    {
+      "secondary": {
+        "city": "HYD",
+        "state": "TS"
+      }
+    }
+  ]
+}
+ 
+14:03:19.059 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+14:05:34.206 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:05:35.425 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:05:35.489 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687854935443
+14:05:35.679 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 43
+14:05:39.685 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:05:40.072 [main] INFO  com.intuit.karate - [print] [
+  {
+    "id": 300,
+    "name": "Amod"
+  },
+  {
+    "id": 600,
+    "name": 250
+  }
+]
+ 
+14:05:41.977 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+14:08:18.509 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:08:19.775 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:08:19.806 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687855099779
+14:08:19.938 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50
+14:08:23.614 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:08:23.977 [main] INFO  com.intuit.karate - [print] {
+  "name": "Amod Airlines",
+  "id": 300
+}
+ 
+14:08:25.918 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+14:09:47.200 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:09:48.386 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:09:48.407 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687855188389
+14:09:48.514 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 58
+14:09:51.570 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:09:51.922 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "details": {
+    "id": 300,
+    "name": "Amod Airlines"
+  }
+}
+ 
+14:09:53.551 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+14:22:53.927 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:22:55.135 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:22:55.157 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687855975138
+14:22:55.281 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+14:22:59.673 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:23:01.427 [main] INFO  com.intuit.karate - [print] {
+  "id": "8",
+  "name": "Lloyd Moen"
+}
+ 
+14:23:03.572 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+14:23:23.718 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:23:24.930 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:23:24.955 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687856004932
+14:23:25.095 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+14:23:30.311 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:23:31.050 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlinewithdynamicdata.feature:6
+* def idvalue  = datafakerObject.number().digit(5)
+js failed:
+>>>>
+01: datafakerObject.number().digit(5)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (digit) on net.datafaker.providers.base.Number failed due to: Arity error - expected: 0 actual: 1
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/CreateAirlinewithdynamicdata.feature:6
+14:23:33.684 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+14:24:01.045 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:24:02.769 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:24:02.841 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687856042771
+14:24:03.088 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+14:24:08.454 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:09.851 [main] INFO  com.intuit.karate - [print] {
+  "id": "06866",
+  "name": "Erwin Mohr"
+}
+ 
+14:24:12.486 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+14:31:49.308 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:31:50.539 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:31:50.564 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687856510541
+14:31:50.691 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+14:31:54.952 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:55.796 [main] INFO  com.intuit.karate - [print] {
+  "id": "Utils.RandomGenerator.getRandomdigit",
+  "name": "Utils.RandomGenerator.getFullName"
+}
+ 
+14:31:58.879 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+14:32:27.130 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:32:28.448 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:32:28.505 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687856548451
+14:32:28.614 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+14:32:32.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:33.560 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlinewithdynamicdata.feature:22
+* print jsonObjectPayload
+js failed:
+>>>>
+01: karate.log('[print]',jsonObjectPayload)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "jsonObjectPayload" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/CreateAirlinewithdynamicdata.feature:22
+14:32:35.976 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+14:34:14.072 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+14:34:15.299 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:34:15.348 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687856655302
+14:34:15.474 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+14:34:19.318 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:34:20.225 [main] INFO  com.intuit.karate - [print] {
+  "id": "36515",
+  "name": "Mrs. Johanna Emard"
+}
+ 
+14:34:22.280 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+12:05:44.062 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+12:05:45.541 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:05:45.561 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695710145544
+12:05:45.979 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+12:05:53.637 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:05:54.849 [main] INFO  com.intuit.karate - [print] {
+  "id": "29810",
+  "name": "Mike Fadel PhD"
+}
+ 
+12:05:56.911 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithdynamicdata.feature
+12:07:20.990 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+12:07:22.457 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:07:22.474 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695710242460
+12:07:22.616 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 43
+12:07:26.311 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:07:26.901 [main] INFO  com.intuit.karate - [print] [
+  {
+    "id": 300,
+    "name": "Amod"
+  },
+  {
+    "id": 600,
+    "name": 250
+  }
+]
+ 
+12:07:28.863 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Nestedcomplexjsoncreation.feature
+12:18:28.371 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+12:18:29.392 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:18:29.412 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695710909396
+12:18:29.558 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 105
+12:18:32.650 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:18:32.816 [main] INFO  com.intuit.karate - [print] url is  https://api.instantwebtools.net/v1/airlines 
+12:18:34.955 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249874,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+12:18:38.413 [main] DEBUG com.intuit.karate - response time in milliseconds: 3397
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Tue, 26 Sep 2023 06:48:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 326
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"146-cfYSonyi1y2yoqCWWkzZjwQfnFY"
+{"_id":"65127ec692e56723de4d60bd","id":1249874,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+12:18:40.717 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+12:19:52.595 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+12:19:54.232 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:19:54.267 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695710994234
+12:19:54.405 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 105
+12:19:58.295 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:19:58.465 [main] INFO  com.intuit.karate - [print] url is  https://api.instantwebtools.net/v1/airlines 
+12:19:58.497 [main] INFO  com.intuit.karate - [print] Varname is someValue 
+12:20:00.221 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249884,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+12:20:02.171 [main] DEBUG com.intuit.karate - response time in milliseconds: 1943
+1 < 200
+1 < Server: nginx/1.18.0
+1 < Date: Tue, 26 Sep 2023 06:50:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 326
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"146-4lU7RQETLQ9XK5HFgI4I0Abv9ik"
+{"_id":"65127f1a92e56736cf4d6256","id":1249884,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
+
+12:20:07.978 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/createAirline.feature
+16:16:57.318 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:16:59.964 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:16:59.984 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725219967
+16:17:00.166 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:17:06.124 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:17:06.456 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:17:08.249 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:18:08.974 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:18:10.130 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:18:10.177 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725290132
+16:18:10.395 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:18:14.472 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:18:14.712 [main] ERROR com.intuit.karate - src/test/java/Airline/KarateConcepts.feature:5
+* def empname= "Harish"
+no step-definition method match found for: def empname= "Harish"
+src/test/java/Airline/KarateConcepts.feature:5
+16:18:16.937 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:20:15.364 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:20:16.680 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:20:16.701 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725416682
+16:20:16.875 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:20:20.585 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:20:20.765 [main] ERROR com.intuit.karate - src/test/java/Airline/KarateConcepts.feature:5
+* def empname= "Harish"
+no step-definition method match found for: def empname= "Harish"
+src/test/java/Airline/KarateConcepts.feature:5
+16:20:23.048 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:21:46.901 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:21:47.818 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:21:47.839 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725507820
+16:21:47.948 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:21:50.708 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:21:50.999 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:21:51.036 [main] ERROR com.intuit.karate - src/test/java/Airline/KarateConcepts.feature:6
+* def empname= "Harish"
+no step-definition method match found for: def empname= "Harish"
+src/test/java/Airline/KarateConcepts.feature:6
+16:21:52.992 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:22:09.427 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:22:10.470 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:22:10.495 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725530472
+16:22:10.594 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:22:14.043 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:22:14.318 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:22:14.339 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:22:15.959 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:22:42.060 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:22:43.413 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:22:43.441 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725563415
+16:22:43.552 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:22:47.495 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:22:47.826 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:22:47.844 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:22:49.833 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:27:47.690 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:27:49.129 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:27:49.215 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725869131
+16:27:49.347 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:27:55.802 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:27:56.393 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:27:56.410 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:27:56.452 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venuuppari"
+}
+ 
+16:27:58.496 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:28:42.653 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:28:43.753 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:28:43.786 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695725923755
+16:28:43.878 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:28:48.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:28:48.935 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:28:48.952 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:28:48.996 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venu uppari"
+}
+ 
+16:28:49.001 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "HelloVenu uppari"
+}
+ 
+16:28:51.481 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:51:14.879 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:51:16.014 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:51:16.059 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695727276017
+16:51:16.191 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:51:20.548 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:51:20.870 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:51:20.892 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:51:20.953 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venu uppari"
+}
+ 
+16:51:20.958 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "HelloVenu uppari"
+}
+ 
+16:51:21.019 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Shiva",
+  "lastname": "Narayanan"
+}
+ 
+16:51:23.245 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:52:51.913 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:52:52.866 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:52:52.884 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695727372868
+16:52:52.974 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:52:55.938 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:52:56.245 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:52:56.262 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:52:56.297 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venu uppari"
+}
+ 
+16:52:56.303 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "HelloVenu uppari"
+}
+ 
+16:52:56.355 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Sameer",
+  "lastname": "Photo"
+}
+ 
+16:52:58.176 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:54:45.056 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:54:46.841 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:54:47.063 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695727486846
+16:54:47.220 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:54:54.251 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:54:54.577 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:54:54.601 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:54:54.648 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venu uppari"
+}
+ 
+16:54:54.657 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "HelloVenu uppari"
+}
+ 
+16:54:54.777 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Sameer",
+  "lastname": "Photo"
+}
+ 
+16:54:55.454 [main] ERROR com.intuit.karate - src/test/java/Airline/KarateConcepts.feature:19
+* def welcomeText = `Hello` + ${firstname}
+js failed:
+>>>>
+01: `Hello` + ${firstname}
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:11 Expected ; but found {
+`Hello` + ${firstname}
+           ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2066)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1260)
+
+src/test/java/Airline/KarateConcepts.feature:19
+16:54:59.159 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:55:26.505 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:55:27.647 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:55:27.698 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695727527649
+16:55:27.828 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:55:31.546 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:55:31.894 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:55:31.914 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:55:31.970 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venu uppari"
+}
+ 
+16:55:31.976 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "HelloVenu uppari"
+}
+ 
+16:55:32.035 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Sameer",
+  "lastname": "Photo"
+}
+ 
+16:55:32.057 [main] INFO  com.intuit.karate - [print] Hello + Sameer 
+16:55:34.142 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+16:56:02.840 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+16:56:03.858 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:56:03.899 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695727563860
+16:56:04.007 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+16:56:06.855 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:56:07.118 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+16:56:07.141 [main] INFO  com.intuit.karate - [print] {
+  "name": "Harish",
+  "Designation": "SE"
+}
+ 
+16:56:07.181 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "Venu uppari"
+}
+ 
+16:56:07.187 [main] INFO  com.intuit.karate - [print] {
+  "fullname": "HelloVenu uppari"
+}
+ 
+16:56:07.233 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Sameer",
+  "lastname": "Photo"
+}
+ 
+16:56:07.281 [main] INFO  com.intuit.karate - [print] Hello  Sameer 
+16:56:09.138 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:03:50.556 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:03:51.565 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:03:51.585 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695728031568
+17:03:51.685 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22
+17:03:54.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:03:55.068 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+17:03:55.090 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+17:03:56.994 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:06:04.702 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:06:05.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:06:05.766 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695728165751
+17:06:05.849 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22
+17:06:08.614 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:06:08.946 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA",
+  "emp": "#(emps)"
+}
+ 
+17:06:10.900 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:06:43.920 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:06:44.896 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:06:44.915 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695728204898
+17:06:45.022 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22
+17:06:47.762 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:06:48.070 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA",
+  "emp": "Harish"
+}
+ 
+17:06:49.839 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:08:02.479 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:08:03.832 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:08:03.863 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695728283834
+17:08:04.111 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22
+17:08:07.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:08:07.718 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA",
+  "emp": "#(emps12)"
+}
+ 
+17:08:09.477 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:09:32.171 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:09:33.326 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:09:33.354 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695728373329
+17:09:33.491 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22
+17:09:37.312 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:09:37.724 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA",
+  "emp": null
+}
+ 
+17:09:39.569 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:10:38.775 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:10:39.941 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:10:39.964 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695728439944
+17:10:40.066 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22
+17:10:43.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:10:43.919 [main] INFO  com.intuit.karate - [print] {
+  "name": "Vijay",
+  "Designation": "QA"
+}
+ 
+17:10:45.612 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateConcepts.feature
+17:26:23.033 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:26:24.002 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:26:24.021 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729384005
+17:26:24.121 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:26:27.205 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:27.510 [main] INFO  com.intuit.karate - [print] 10 
+17:26:28.941 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:27:13.727 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:27:15.008 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:27:15.069 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729435011
+17:27:15.177 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:27:18.772 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:19.191 [main] INFO  com.intuit.karate - [print] 10 
+17:27:19.204 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:27:20.995 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:27:47.762 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:27:49.020 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:27:49.082 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729469024
+17:27:49.317 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:27:53.705 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:54.039 [main] INFO  com.intuit.karate - [print] 10 
+17:27:54.053 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:27:54.065 [main] INFO  com.intuit.karate - [print] reference 
+17:27:56.346 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:28:37.438 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:28:38.630 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:28:38.648 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729518632
+17:28:38.735 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:28:42.249 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:28:42.602 [main] INFO  com.intuit.karate - [print] 10 
+17:28:42.656 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:45
+* print Karate.get($.expensive)
+js failed:
+>>>>
+01: karate.log('[print]',Karate.get($.expensive))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Karate" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/JsonPathExamples.feature:45
+17:28:44.404 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:29:00.552 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:29:01.885 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:29:01.970 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729541887
+17:29:02.184 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:29:07.215 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:29:07.715 [main] INFO  com.intuit.karate - [print] 10 
+17:29:07.779 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:45
+* print karate.get($.expensive)
+js failed:
+>>>>
+01: karate.log('[print]',karate.get($.expensive))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "$" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/JsonPathExamples.feature:45
+17:29:11.361 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:29:26.927 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:29:27.984 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:29:28.011 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729567986
+17:29:28.377 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:29:33.002 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:29:33.262 [main] INFO  com.intuit.karate - [print] 10 
+17:29:33.343 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:45
+* print karate.get($JsonObject.expensive)
+js failed:
+>>>>
+01: karate.log('[print]',karate.get($JsonObject.expensive))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "$JsonObject" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/JsonPathExamples.feature:45
+17:29:35.079 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:30:00.584 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:30:01.579 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:30:01.658 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729601614
+17:30:01.902 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:30:05.063 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:30:05.360 [main] INFO  com.intuit.karate - [print] 10 
+17:30:05.380 [main] INFO  com.intuit.karate - [print] 10 
+17:30:05.389 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:30:05.401 [main] INFO  com.intuit.karate - [print] reference 
+17:30:06.993 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:30:29.141 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:30:30.190 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:30:30.206 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729630193
+17:30:30.305 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:30:33.431 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:30:33.708 [main] INFO  com.intuit.karate - [print] 10 
+17:30:33.722 [main] INFO  com.intuit.karate - [print] null 
+17:30:33.729 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:30:33.744 [main] INFO  com.intuit.karate - [print] reference 
+17:30:35.676 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:31:41.294 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:31:42.452 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:31:42.482 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729702458
+17:31:42.585 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:31:45.572 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:31:45.864 [main] INFO  com.intuit.karate - [print] 10 
+17:31:45.879 [main] INFO  com.intuit.karate - [print] 10 
+17:31:45.887 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:31:45.908 [main] INFO  com.intuit.karate - [print] null 
+17:31:47.617 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:32:10.162 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:32:11.234 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:32:11.284 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729731237
+17:32:11.470 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:32:15.261 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:32:15.638 [main] INFO  com.intuit.karate - [print] 10 
+17:32:15.655 [main] INFO  com.intuit.karate - [print] 10 
+17:32:15.668 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:32:15.737 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:47
+* print JsonObject.store.book[*].category
+js failed:
+>>>>
+01: karate.log('[print]',JsonObject.store.book[*].category)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:43 Expected an operand but found *
+karate.log('[print]',JsonObject.store.book[*].category)
+                                           ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:243)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/Airline/JsonPathExamples.feature:47
+17:32:17.964 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:34:16.277 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:34:17.502 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:34:17.545 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729857504
+17:34:17.715 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:34:21.433 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:34:21.776 [main] INFO  com.intuit.karate - [print] 10 
+17:34:21.794 [main] INFO  com.intuit.karate - [print] 10 
+17:34:21.802 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:34:21.879 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:47
+* print JsonObject.store.book[:book.length()-1].category
+js failed:
+>>>>
+01: karate.log('[print]',JsonObject.store.book[:book.length()-1].category)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:43 Expected an operand but found :
+karate.log('[print]',JsonObject.store.book[:book.length()-1].category)
+                                           ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:243)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/Airline/JsonPathExamples.feature:47
+17:34:24.398 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:36:18.316 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:36:19.439 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:36:19.491 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695729979441
+17:36:19.615 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:36:23.358 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:36:23.713 [main] INFO  com.intuit.karate - [print] 10 
+17:36:23.731 [main] INFO  com.intuit.karate - [print] 10 
+17:36:23.738 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:36:23.821 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:47
+* def allcat = JsonObject.store.book[*].category
+js failed:
+>>>>
+01: JsonObject.store.book[*].category
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:22 Expected an operand but found *
+JsonObject.store.book[*].category
+                      ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2147)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2066)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1260)
+
+src/test/java/Airline/JsonPathExamples.feature:47
+17:36:26.114 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:37:46.719 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:37:48.117 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:37:48.147 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730068119
+17:37:48.268 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:37:53.189 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:54.580 [main] INFO  com.intuit.karate - [print] 10 
+17:37:54.602 [main] INFO  com.intuit.karate - [print] 10 
+17:37:54.618 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:37:54.632 [main] INFO  com.intuit.karate - [print] fiction 
+17:37:54.644 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:37:58.780 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:38:44.323 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:38:45.720 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:38:45.751 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730125725
+17:38:45.970 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:38:50.577 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:38:50.994 [main] INFO  com.intuit.karate - [print] 10 
+17:38:51.026 [main] INFO  com.intuit.karate - [print] 10 
+17:38:51.042 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:38:51.053 [main] INFO  com.intuit.karate - [print] fiction 
+17:38:51.091 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:38:51.097 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:38:53.741 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:44:15.247 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:44:16.311 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:44:16.334 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730456313
+17:44:16.420 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:44:19.764 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:44:20.045 [main] INFO  com.intuit.karate - [print] 10 
+17:44:20.074 [main] INFO  com.intuit.karate - [print] 10 
+17:44:20.090 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:44:20.122 [main] INFO  com.intuit.karate - [print] fiction 
+17:44:20.132 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:44:20.155 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:44:20.215 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:50
+* print karate.jsonPath(JsonObject,$.store.book[0,1].category)
+js failed:
+>>>>
+01: karate.log('[print]',karate.jsonPath(JsonObject,$.store.book[0,1].category))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "$" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/JsonPathExamples.feature:50
+17:44:22.430 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:44:34.680 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:44:35.722 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:44:35.742 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730475724
+17:44:35.844 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:44:38.899 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:44:39.166 [main] INFO  com.intuit.karate - [print] 10 
+17:44:39.187 [main] INFO  com.intuit.karate - [print] 10 
+17:44:39.195 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:44:39.208 [main] INFO  com.intuit.karate - [print] fiction 
+17:44:39.218 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:44:39.226 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:44:39.333 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:44:41.101 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:46:02.119 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:46:03.570 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:46:03.656 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730563574
+17:46:03.821 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:46:08.276 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:46:08.597 [main] INFO  com.intuit.karate - [print] 10 
+17:46:08.635 [main] INFO  com.intuit.karate - [print] 10 
+17:46:08.647 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:46:08.661 [main] INFO  com.intuit.karate - [print] fiction 
+17:46:08.676 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:46:08.687 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:46:08.750 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:46:08.963 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:51
+* print karate.jsonPath(JsonObject,'$.store.book[?(@.author == 'Nigel Rees')].category')
+js failed:
+>>>>
+01: karate.log('[print]',karate.jsonPath(JsonObject,'$.store.book[?(@.author == 'Nigel Rees')].category'))
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:77 Expected , but found Nigel
+karate.log('[print]',karate.jsonPath(JsonObject,'$.store.book[?(@.author == 'Nigel Rees')].category'))
+                                                                             ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:243)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/Airline/JsonPathExamples.feature:51
+17:46:11.216 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:46:52.889 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:46:54.257 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:46:54.286 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730614260
+17:46:54.423 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:46:57.792 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:46:58.122 [main] INFO  com.intuit.karate - [print] 10 
+17:46:58.146 [main] INFO  com.intuit.karate - [print] 10 
+17:46:58.153 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:46:58.166 [main] INFO  com.intuit.karate - [print] fiction 
+17:46:58.177 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:46:58.188 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:46:58.255 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:46:58.304 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:47:02.601 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:47:32.643 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:47:34.174 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:47:34.247 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730654176
+17:47:34.441 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:47:39.271 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:47:39.728 [main] INFO  com.intuit.karate - [print] 10 
+17:47:39.748 [main] INFO  com.intuit.karate - [print] 10 
+17:47:39.758 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:47:39.771 [main] INFO  com.intuit.karate - [print] fiction 
+17:47:39.781 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:47:39.804 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:47:39.895 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:47:39.944 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:47:39.953 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:47:42.725 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:50:20.285 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:50:22.011 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:50:22.102 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730822014
+17:50:22.257 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:50:27.848 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:28.173 [main] INFO  com.intuit.karate - [print] 10 
+17:50:28.200 [main] INFO  com.intuit.karate - [print] 10 
+17:50:28.209 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:50:28.221 [main] INFO  com.intuit.karate - [print] fiction 
+17:50:28.241 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:50:28.249 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:50:28.312 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:50:28.358 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:50:28.361 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:50:28.423 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:55
+* print karate.jsonPath(JsonObject,"$.store.book.length())
+js failed:
+>>>>
+01: karate.log('[print]',karate.jsonPath(JsonObject,"$.store.book.length()))
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:72 Missing close quote
+karate.log('[print]',karate.jsonPath(JsonObject,"$.store.book.length()))
+                                                                        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:243)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/Airline/JsonPathExamples.feature:55
+17:50:30.361 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:51:10.140 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:51:11.172 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:51:11.192 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730871174
+17:51:11.291 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:51:14.258 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:51:14.562 [main] INFO  com.intuit.karate - [print] 10 
+17:51:14.580 [main] INFO  com.intuit.karate - [print] 10 
+17:51:14.587 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:51:14.601 [main] INFO  com.intuit.karate - [print] fiction 
+17:51:14.611 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:51:14.654 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:51:14.713 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:51:14.763 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:51:14.770 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:51:14.805 [main] INFO  com.intuit.karate - [print] 4 
+17:51:17.537 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:52:54.252 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:52:55.348 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:52:55.369 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730975351
+17:52:55.460 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:52:58.605 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:52:58.951 [main] INFO  com.intuit.karate - [print] 10 
+17:52:58.969 [main] INFO  com.intuit.karate - [print] 10 
+17:52:58.978 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:52:59.002 [main] INFO  com.intuit.karate - [print] fiction 
+17:52:59.014 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:52:59.027 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:52:59.098 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:52:59.142 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:52:59.149 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:52:59.175 [main] INFO  com.intuit.karate - [print] 4 
+17:52:59.287 [main] ERROR com.intuit.karate - src/test/java/Airline/JsonPathExamples.feature:56
+* print karate.jsonPath('JsonObject, '$.store.book[*].price')
+js failed:
+>>>>
+01: karate.log('[print]',karate.jsonPath('JsonObject, '$.store.book[*].price'))
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:75 Missing close quote
+karate.log('[print]',karate.jsonPath('JsonObject, '$.store.book[*].price'))
+                                                                           ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:243)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/Airline/JsonPathExamples.feature:56
+17:53:01.714 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:53:13.065 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:53:14.138 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:53:14.164 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695730994140
+17:53:14.256 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:53:18.053 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:53:18.324 [main] INFO  com.intuit.karate - [print] 10 
+17:53:18.341 [main] INFO  com.intuit.karate - [print] 10 
+17:53:18.349 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:53:18.360 [main] INFO  com.intuit.karate - [print] fiction 
+17:53:18.399 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:53:18.405 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:53:18.475 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:53:18.520 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:53:18.526 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:53:18.582 [main] INFO  com.intuit.karate - [print] 4 
+17:53:18.590 [main] INFO  com.intuit.karate - [print] [
+  8.95,
+  12.99,
+  8.99,
+  22.99
+]
+ 
+17:53:20.623 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:53:45.530 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:53:46.531 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:53:46.549 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695731026533
+17:53:46.643 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:53:49.521 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:53:49.776 [main] INFO  com.intuit.karate - [print] 10 
+17:53:49.791 [main] INFO  com.intuit.karate - [print] 10 
+17:53:49.801 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:53:49.813 [main] INFO  com.intuit.karate - [print] fiction 
+17:53:49.823 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:53:49.830 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:53:49.881 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:53:49.925 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:53:49.931 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:53:49.953 [main] INFO  com.intuit.karate - [print] 4 
+17:53:49.958 [main] INFO  com.intuit.karate - [print] [
+  8.95,
+  12.99,
+  8.99,
+  22.99
+]
+ 
+17:53:50.003 [main] INFO  com.intuit.karate - [print] 73.87 
+17:53:51.868 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+17:54:22.789 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+17:54:24.594 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:54:24.660 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695731064597
+17:54:24.939 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:54:29.988 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:54:30.479 [main] INFO  com.intuit.karate - [print] 10 
+17:54:30.499 [main] INFO  com.intuit.karate - [print] 10 
+17:54:30.516 [main] INFO  com.intuit.karate - [print] {
+  "category": "reference",
+  "author": "Nigel Rees",
+  "title": "Sayings of the Century",
+  "price": 8.95
+}
+ 
+17:54:30.662 [main] INFO  com.intuit.karate - [print] fiction 
+17:54:30.687 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction",
+  "fiction",
+  "fiction"
+]
+ 
+17:54:30.758 [main] INFO  com.intuit.karate - [print] [
+  "fiction",
+  "fiction"
+]
+ 
+17:54:31.052 [main] INFO  com.intuit.karate - [print] [
+  "reference",
+  "fiction"
+]
+ 
+17:54:31.125 [main] INFO  com.intuit.karate - [print] [
+  "reference"
+]
+ 
+17:54:31.136 [main] INFO  com.intuit.karate - [print] [
+  "Sayings of the Century"
+]
+ 
+17:54:31.163 [main] INFO  com.intuit.karate - [print] 4 
+17:54:31.167 [main] INFO  com.intuit.karate - [print] [
+  8.95,
+  12.99,
+  8.99,
+  22.99
+]
+ 
+17:54:31.207 [main] INFO  com.intuit.karate - [print] 73.87 
+17:54:31.252 [main] INFO  com.intuit.karate - [print] 8.95 
+17:54:31.275 [main] INFO  com.intuit.karate - [print] 22.99 
+17:54:34.746 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/JsonPathExamples.feature
+18:10:12.991 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:10:14.122 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:10:14.143 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732014124
+18:10:14.241 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:10:17.150 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:10:17.316 [main] INFO  com.intuit.karate - [print] Details are  vijay 100 false 
+18:10:19.037 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:11:56.309 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:11:57.357 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:11:57.394 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732117360
+18:11:57.619 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:12:01.166 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:12:01.375 [main] INFO  com.intuit.karate - [print] Details are  vijay 100 true 
+18:12:01.381 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:12:01.411 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:12:01.436 [main] INFO  com.intuit.karate - [print] Details are  Harish 200 false 
+18:12:03.387 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:12:29.759 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:12:30.883 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:12:30.905 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732150885
+18:12:31.032 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:12:33.920 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:12:34.071 [main] INFO  com.intuit.karate - [print] Details are  vijay 100 true 
+18:12:34.077 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:12:34.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:12:34.191 [main] INFO  com.intuit.karate - [print] Details are  Harish 200 false 
+18:12:35.982 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:15:25.596 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:15:26.832 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:15:26.903 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732326835
+18:15:27.082 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+18:15:33.272 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:15:33.709 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+18:15:33.761 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:15:36.205 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:17:26.741 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:17:28.162 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:17:28.209 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732448165
+18:17:28.445 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:17:34.494 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:17:34.802 [main] INFO  com.intuit.karate - [print] Details are  vijay 100 true 
+18:17:34.818 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:17:34.852 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:17:34.888 [main] INFO  com.intuit.karate - [print] Details are  Harish 200 false 
+18:17:37.779 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:18:13.863 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:18:15.061 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:18:15.087 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732495066
+18:18:15.250 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:18:20.850 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:18:21.191 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:18:21.211 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:18:24.735 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:19:31.623 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:19:32.958 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:19:33.031 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732572960
+18:19:33.245 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:19:39.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:19:39.978 [main] INFO  com.intuit.karate - [print] {
+  "fname": "vijay",
+  "lastname": 100,
+  "ismanager": true
+}
+ 
+18:19:39.994 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:19:40.011 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:19:40.019 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Harish",
+  "lastname": 200,
+  "ismanager": false
+}
+ 
+18:19:43.394 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:20:17.542 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:20:18.561 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:20:18.582 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732618563
+18:20:18.725 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:20:21.650 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:20:21.908 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Amitish",
+  "lastname": 500,
+  "ismanager": true
+}
+ 
+18:20:21.925 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:20:22.048 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:20:22.057 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Amod",
+  "lastname": 600,
+  "ismanager": false
+}
+ 
+18:20:24.640 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:21:17.456 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:21:19.226 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:21:19.282 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732679229
+18:21:19.886 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:21:26.077 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:21:26.541 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Amitish",
+  "lastname": 500,
+  "ismanager": true
+}
+ 
+18:21:26.581 [main] INFO  com.intuit.karate - [print] Amitish 
+18:21:26.584 [main] INFO  com.intuit.karate - [print] 500 
+18:21:26.586 [main] INFO  com.intuit.karate - [print] true 
+18:21:26.591 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+18:21:26.611 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:21:26.624 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Amod",
+  "lastname": 600,
+  "ismanager": false
+}
+ 
+18:21:26.627 [main] INFO  com.intuit.karate - [print] Amod 
+18:21:26.652 [main] INFO  com.intuit.karate - [print] 600 
+18:21:26.653 [main] INFO  com.intuit.karate - [print] false 
+18:21:29.951 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:23:20.108 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:23:21.088 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:23:21.115 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732801090
+18:23:21.247 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:23:24.146 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:23:24.421 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Suresh",
+  "lastname": "150",
+  "ismanager": "true"
+}
+ 
+18:23:24.431 [main] INFO  com.intuit.karate - [print] Suresh 
+18:23:24.434 [main] INFO  com.intuit.karate - [print] 150 
+18:23:24.438 [main] INFO  com.intuit.karate - [print] true 
+18:23:24.442 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:23:24.462 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:23:24.476 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Paranesh",
+  "lastname": "250",
+  "ismanager": "false"
+}
+ 
+18:23:24.484 [main] INFO  com.intuit.karate - [print] Paranesh 
+18:23:24.485 [main] INFO  com.intuit.karate - [print] 250 
+18:23:24.486 [main] INFO  com.intuit.karate - [print] false 
+18:23:26.357 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:23:58.570 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:23:59.556 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:23:59.579 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732839558
+18:23:59.694 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:24:02.605 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:24:02.923 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Suresh",
+  "lastname": "150",
+  "ismanager": "true"
+}
+ 
+18:24:02.942 [main] INFO  com.intuit.karate - [print] Suresh 
+18:24:02.945 [main] INFO  com.intuit.karate - [print] 150 
+18:24:02.948 [main] INFO  com.intuit.karate - [print] true 
+18:24:02.951 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:24:02.968 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:24:02.977 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Paranesh",
+  "lastname": "250",
+  "ismanager": "null"
+}
+ 
+18:24:02.985 [main] INFO  com.intuit.karate - [print] Paranesh 
+18:24:02.990 [main] INFO  com.intuit.karate - [print] 250 
+18:24:02.991 [main] INFO  com.intuit.karate - [print] null 
+18:24:05.228 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:24:34.356 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:24:35.728 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:24:35.863 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732875782
+18:24:36.089 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:24:40.852 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:24:41.573 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Suresh",
+  "lastname": "150",
+  "ismanager": "true"
+}
+ 
+18:24:41.592 [main] INFO  com.intuit.karate - [print] Suresh 
+18:24:41.594 [main] INFO  com.intuit.karate - [print] 150 
+18:24:41.598 [main] INFO  com.intuit.karate - [print] true 
+18:24:41.601 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:24:41.637 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:24:41.648 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Paranesh",
+  "lastname": "250",
+  "ismanager": "null"
+}
+ 
+18:24:41.660 [main] INFO  com.intuit.karate - [print] Paranesh 
+18:24:41.661 [main] INFO  com.intuit.karate - [print] 250 
+18:24:41.662 [main] INFO  com.intuit.karate - [print] null 
+18:24:44.536 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:25:30.125 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:25:31.316 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:25:31.340 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732931318
+18:25:31.516 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:25:34.985 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:25:35.311 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Suresh",
+  "lastname": null,
+  "ismanager": "true"
+}
+ 
+18:25:35.320 [main] INFO  com.intuit.karate - [print] Suresh 
+18:25:35.322 [main] INFO  com.intuit.karate - [print] null 
+18:25:35.329 [main] INFO  com.intuit.karate - [print] true 
+18:25:35.334 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:25:35.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:25:35.372 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Paranesh",
+  "lastname": "250"
+}
+ 
+18:25:35.374 [main] INFO  com.intuit.karate - [print] Paranesh 
+18:25:35.384 [main] INFO  com.intuit.karate - [print] 250 
+18:25:35.386 [main] INFO  com.intuit.karate - [print] null 
+18:25:37.461 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:26:24.043 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:26:25.252 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:26:25.282 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695732985255
+18:26:25.439 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:26:29.290 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:26:29.614 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Suresh",
+  "ismanager": "true"
+}
+ 
+18:26:29.623 [main] INFO  com.intuit.karate - [print] Suresh 
+18:26:29.626 [main] INFO  com.intuit.karate - [print] null 
+18:26:29.632 [main] INFO  com.intuit.karate - [print] true 
+18:26:29.637 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 36
+18:26:29.664 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:26:29.676 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Paranesh",
+  "lastname": "250"
+}
+ 
+18:26:29.686 [main] INFO  com.intuit.karate - [print] Paranesh 
+18:26:29.687 [main] INFO  com.intuit.karate - [print] 250 
+18:26:29.689 [main] INFO  com.intuit.karate - [print] null 
+18:26:31.695 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:44:56.375 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:44:57.429 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:44:57.449 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695734097431
+18:44:57.576 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:45:00.344 [main] ERROR c.intuit.karate.core.FeatureRuntime - src/test/java/Airline/CreateAirlinewithsceariooutline.feature[4:67] dynamic expression evaluation failed: read('Airline/Payloads/MOCK_DATA.json)'
+18:45:02.332 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:45:54.354 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:45:55.459 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:45:55.484 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695734155463
+18:45:55.661 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:45:58.595 [main] ERROR c.intuit.karate.core.FeatureRuntime - src/test/java/Airline/CreateAirlinewithsceariooutline.feature[4:67] dynamic expression evaluation failed: read('Airline/Payloads/MOCK_DATA.json)'
+18:46:00.382 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:46:24.091 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:46:25.217 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:46:25.240 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695734185219
+18:46:25.358 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:46:28.329 [main] ERROR c.intuit.karate.core.FeatureRuntime - src/test/java/Airline/CreateAirlinewithsceariooutline.feature[4:67] dynamic expression evaluation failed: read('Airline/Payloads/MOCK_DATA.json')
+18:46:30.041 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:46:58.575 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:46:59.604 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:46:59.623 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695734219606
+18:46:59.740 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:47:03.242 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:47:03.401 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:03.618 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Kimberlee",
+  "lastname": "#1",
+  "ismanager": "#true"
+}
+ 
+18:47:03.669 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:47:03.694 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:03.703 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Tierney",
+  "lastname": "#2",
+  "ismanager": "#false"
+}
+ 
+18:47:05.989 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+18:47:37.802 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+18:47:39.668 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:47:39.781 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695734259706
+18:47:40.164 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:47:44.791 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:47:44.939 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:45.089 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Kimberlee",
+  "lastname": 1,
+  "ismanager": true
+}
+ 
+18:47:45.100 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 55
+18:47:45.140 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:47:45.148 [main] INFO  com.intuit.karate - [print] {
+  "fname": "Tierney",
+  "lastname": 2,
+  "ismanager": false
+}
+ 
+18:47:47.272 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlinewithsceariooutline.feature
+19:04:39.255 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:04:40.409 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:04:40.465 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695735280411
+19:04:40.600 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+19:04:44.576 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:44.958 [main] INFO  com.intuit.karate - [print] {
+  "id": 123,
+  "name": "Vijay"
+}
+ 
+19:04:47.098 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:05:22.503 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:05:24.028 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:05:24.094 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695735324030
+19:05:24.432 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+19:05:30.293 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:31.046 [main] ERROR com.intuit.karate - src/test/java/Airline/FuzzyMatchers.feature:13
+* match jsocdoc.id == 123
+js failed:
+>>>>
+01: jsocdoc
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "jsocdoc" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/FuzzyMatchers.feature:13
+19:05:33.025 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:05:52.232 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:05:53.265 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:05:53.291 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695735353272
+19:05:53.395 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+19:05:56.573 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:58.640 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:06:57.923 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:06:59.135 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:06:59.156 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695735419137
+19:06:59.282 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+19:07:02.737 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:07:04.863 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:07:56.913 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:07:57.885 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:07:57.905 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695735477887
+19:07:57.994 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+19:08:00.827 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:08:01.180 [main] ERROR com.intuit.karate - src/test/java/Airline/FuzzyMatchers.feature:14
+* match jsondoc.id == '#regex [0-9]{3}'
+match failed: EQUALS
+  $ | not a string (NUMBER:STRING)
+  123
+  '#regex [0-9]{3}'
+
+src/test/java/Airline/FuzzyMatchers.feature:14
+19:08:03.033 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:08:54.553 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:08:55.545 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:08:55.614 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695735535548
+19:08:55.710 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+19:08:58.761 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:08:59.184 [main] ERROR com.intuit.karate - src/test/java/Airline/FuzzyMatchers.feature:14
+* match jsondoc.id == '#regex [0-9]'
+match failed: EQUALS
+  $ | not a string (NUMBER:STRING)
+  123
+  '#regex [0-9]'
+
+src/test/java/Airline/FuzzyMatchers.feature:14
+19:09:00.831 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:21:57.335 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:21:58.633 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:21:58.666 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695736318636
+19:21:58.796 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15
+19:22:02.567 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:22:05.067 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:22:48.014 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:22:49.292 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:22:49.358 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695736369294
+19:22:49.552 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 15
+19:22:53.776 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:22:54.288 [main] ERROR com.intuit.karate - src/test/java/Airline/FuzzyMatchers.feature:22
+* match jsondoc ==
+"""
+{
+   "id": '#present',
+   "name": '#ignore'
+   }
+"""
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'id' (MAP:MAP)
+  {"name":"Vijay"}
+  {"name":"#ignore","id":"#present"}
+
+
+src/test/java/Airline/FuzzyMatchers.feature:22
+19:22:56.912 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+19:24:45.018 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+19:24:46.203 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:24:46.242 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695736486206
+19:24:46.413 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31
+19:24:51.142 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:54.756 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/FuzzyMatchers.feature
+20:05:34.917 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+20:05:35.936 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:05:35.955 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695738935938
+20:05:36.047 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+20:05:38.998 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:05:39.320 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+20:05:41.440 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Calling.feature
+20:07:42.853 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+20:07:43.765 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:07:43.784 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695739063768
+20:07:43.878 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+20:07:46.748 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:07:47.024 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+20:07:47.115 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+20:07:49.021 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Calling.feature
+20:17:31.501 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+20:17:32.472 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:17:32.494 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695739652475
+20:17:32.583 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+20:17:35.519 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:17:35.785 [main] INFO  com.intuit.karate - [print] {
+  "username": "#(user)",
+  "Password": "#(pass)"
+}
+ 
+20:17:38.018 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Calling1.feature
+20:18:14.534 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+20:18:16.111 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:18:16.168 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695739696114
+20:18:16.354 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+20:18:20.332 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:18:20.647 [main] INFO  com.intuit.karate - [print] {
+  "username": "#(user)",
+  "Password": "#(pass)"
+}
+ 
+20:18:22.929 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Calling1.feature
+20:20:52.720 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+20:20:53.905 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:20:53.925 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695739853907
+20:20:54.027 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+20:20:57.688 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:20:58.043 [main] INFO  com.intuit.karate - [print] {
+  "username": "#(user)",
+  "Password": "#(pass)"
+}
+ 
+20:21:00.192 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Calling1.feature
+20:24:48.520 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+20:24:49.458 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:24:49.475 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695740089460
+20:24:49.577 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+20:24:52.530 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:24:52.938 [main] INFO  com.intuit.karate - [print] {
+  "jsonobj": {
+    "username": "Nani",
+    "password": "Very Special"
+  }
+}
+ 
+20:24:54.793 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Calling1.feature
+21:30:54.608 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:30:55.559 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:30:55.585 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695744055561
+21:30:55.718 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+21:30:58.997 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:31:01.551 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v12/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+21:31:01.659 [main] ERROR com.intuit.karate - java.net.UnknownHostException: No such host is known (api.instantwebtools.net), http call failed after 2042 milliseconds for url: https://api.instantwebtools.net/v12/airlines
+21:31:01.734 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlineRetryUntil.feature:8
+And method post
+http call failed after 2042 milliseconds for url: https://api.instantwebtools.net/v12/airlines
+java.net.UnknownHostException: No such host is known (api.instantwebtools.net)
+src/test/java/Airline/CreateAirlineRetryUntil.feature:8
+21:31:03.597 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlineRetryUntil.feature
+21:32:21.846 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:32:22.824 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:32:22.843 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695744142827
+21:32:22.927 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+21:32:25.592 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:32:28.342 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v12/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+21:32:28.402 [main] ERROR com.intuit.karate - java.net.UnknownHostException: No such host is known (api.instantwebtools.net), http call failed after 1436 milliseconds for url: https://api.instantwebtools.net/v12/airlines
+21:32:28.427 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+And method post
+http call failed after 1436 milliseconds for url: https://api.instantwebtools.net/v12/airlines
+java.net.UnknownHostException: No such host is known (api.instantwebtools.net)
+src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+21:32:30.529 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlineRetryUntil.feature
+21:32:43.036 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:32:44.099 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:32:44.119 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695744164102
+21:32:44.225 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+21:32:47.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:32:48.621 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+21:32:48.676 [main] ERROR com.intuit.karate - java.net.UnknownHostException: No such host is known (api.instantwebtools.net), http call failed after 1092 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+21:32:48.703 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+And method post
+http call failed after 1092 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+java.net.UnknownHostException: No such host is known (api.instantwebtools.net)
+src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+21:32:51.183 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlineRetryUntil.feature
+21:38:13.219 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:38:14.338 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:38:14.356 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695744494340
+21:38:14.466 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+21:38:17.549 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:18.930 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v12/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+21:38:31.003 [main] ERROR com.intuit.karate - java.net.UnknownHostException: No such host is known (api.instantwebtools.net), http call failed after 13018 milliseconds for url: https://api.instantwebtools.net/v12/airlines
+21:38:31.035 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+And method post
+http call failed after 13018 milliseconds for url: https://api.instantwebtools.net/v12/airlines
+java.net.UnknownHostException: No such host is known (api.instantwebtools.net)
+src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+21:38:33.065 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlineRetryUntil.feature
+21:39:03.356 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:39:04.397 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:39:04.420 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695744544399
+21:39:04.558 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+21:39:07.877 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:39:09.217 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 294
+1 > Host: api.instantwebtools.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+1 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+21:39:11.852 [main] DEBUG com.intuit.karate - response time in milliseconds: 2627
+1 < 400
+1 < Server: nginx/1.18.0
+1 < Date: Tue, 26 Sep 2023 16:09:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 73
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"49-xjKsxJPULeKqbrqiurJFCqpk5MI"
+{"message":"there is an airline registered under same id you've entered"}
+
+21:39:11.869 [main] DEBUG com.intuit.karate - retry condition not satisfied: responseStatus == 200
+21:39:11.870 [main] DEBUG com.intuit.karate - sleeping before retry #1
+21:39:14.882 [main] DEBUG com.intuit.karate - request:
+2 > POST https://api.instantwebtools.net/v1/airlines
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 294
+2 > Host: api.instantwebtools.net
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/11)
+2 > Accept-Encoding: gzip,deflate
+{"id":1249872,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
+
+21:39:15.378 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 482 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+21:39:15.398 [main] ERROR com.intuit.karate - src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+And method post
+http call failed after 482 milliseconds for url: https://api.instantwebtools.net/v1/airlines
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+src/test/java/Airline/CreateAirlineRetryUntil.feature:9
+21:39:17.451 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CreateAirlineRetryUntil.feature
+21:51:49.987 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:51:51.073 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:51:51.096 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745311076
+21:51:51.200 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+21:51:54.288 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:51:54.458 [main] INFO  com.intuit.karate - [print] vijay 
+21:51:56.374 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+21:52:35.998 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:52:37.036 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:52:37.056 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745357038
+21:52:37.142 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+21:52:40.398 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:52:41.046 [main] INFO  com.intuit.karate - [print] vijay 
+21:52:41.062 [main] INFO  com.intuit.karate - [print] Harish 
+21:52:42.655 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+21:54:06.020 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:54:07.058 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:54:07.079 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745447061
+21:54:07.199 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+21:54:10.020 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:10.194 [main] INFO  com.intuit.karate - [print] vijay 
+21:54:10.203 [main] INFO  com.intuit.karate - [print] Harish 
+21:54:10.240 [main] INFO  com.intuit.karate - [print] Hello Mukesh 
+21:54:12.008 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+21:54:49.762 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:54:50.926 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:54:50.958 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745490928
+21:54:51.079 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+21:54:54.731 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:54.910 [main] INFO  com.intuit.karate - [print] vijay 
+21:54:54.923 [main] INFO  com.intuit.karate - [print] Harish 
+21:54:54.963 [main] INFO  com.intuit.karate - [print] Hello Mukesh 
+21:54:54.966 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'getName2' with new value: function SpecialName(name)
+{
+return "Hello " + name
+}
+21:54:55.140 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:26
+* print getName3("Naveen")
+js failed:
+>>>>
+01: karate.log('[print]',getName3("Naveen"))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "getName3" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:26
+21:54:57.255 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+21:55:18.201 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+21:55:19.367 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:55:19.389 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745519369
+21:55:19.528 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+21:55:23.236 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:23.450 [main] INFO  com.intuit.karate - [print] vijay 
+21:55:23.466 [main] INFO  com.intuit.karate - [print] Harish 
+21:55:23.503 [main] INFO  com.intuit.karate - [print] Hello Mukesh 
+21:55:23.518 [main] INFO  com.intuit.karate - [print] Hello Naveen 
+21:55:25.799 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:01:30.435 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:01:31.392 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:01:31.411 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745891395
+22:01:31.497 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:01:34.363 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:34.717 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:29
+* def jsutil = read("Utils/Jsutils.js")
+js failed:
+>>>>
+01: read("Utils/Jsutils.js")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Airline\Utils\Jsutils.js (The system cannot find the path specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:58)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:29
+22:01:36.535 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:02:56.140 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:02:57.114 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:57.134 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695745977117
+22:02:57.228 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:03:00.182 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:00.417 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:29
+* def jsutil = read("src/test/java/Utils/Jsutils.js")
+js failed:
+>>>>
+01: read("src/test/java/Utils/Jsutils.js")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Airline\src\test\java\Utils\Jsutils.js (The system cannot find the path specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:58)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:29
+22:03:02.233 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:03:36.341 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:03:37.359 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:03:37.378 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746017361
+22:03:37.474 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:03:40.393 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:40.632 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:29
+* def jsutil = read("C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Utils\Jsutils.js")
+js failed:
+>>>>
+01: read("C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Utils\Jsutils.js")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Airline\C:UsersVijayKaratearchtypereatargetsrc	estjavaUtilsJsutils.js (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:58)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:29
+22:03:42.396 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:04:30.216 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:04:31.245 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:04:31.267 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746071248
+22:04:31.369 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:04:34.468 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:34.684 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:29
+* def jsutil = read("Utils/Jsutils.js")
+js failed:
+>>>>
+01: read("Utils/Jsutils.js")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Vijay\Karatearchtypereatarget\src\test\java\Airline\Utils\Jsutils.js (The system cannot find the path specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:58)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:29
+22:04:36.658 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:05:30.155 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:05:31.286 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:31.308 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746131288
+22:05:31.418 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:05:36.662 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:36.908 [main] INFO  com.intuit.karate - [print] Hello 
+22:05:38.735 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:06:47.577 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:06:48.576 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:48.596 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746208579
+22:06:48.690 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:06:51.775 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:52.039 [main] INFO  com.intuit.karate - [print] Marhis 
+22:06:53.891 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:09:23.929 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:09:24.852 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/Airline/Callingjavascriptfunctions.feature - mismatched input 'd' expecting <EOF>
+22:09:46.119 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:09:47.138 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/Airline/Callingjavascriptfunctions.feature - mismatched input 'd' expecting <EOF>
+22:09:58.215 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:09:59.252 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:09:59.361 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746399255
+22:09:59.478 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:10:02.466 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:02.826 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:29
+* def jsutil = read("Utils/Jsutils.js")
+js failed:
+>>>>
+01: read("Utils/Jsutils.js")
+<<<<
+org.graalvm.polyglot.PolyglotException: js failed:
+>>>>
+01: (/*function(){
+02: return "Hello"
+03: }*/
+04: 
+05: /*
+06: function(name){
+07: return name
+08: }*/
+09: 
+10: function(){
+11:     return{
+12:         printName: return {"Welcome"},
+13:         printName1(firstname): return {firstname},
+14:         printName2(fname,lname):
+15:         return{
+16:         fname + " " + lname
+17:         }
+18:     }
+19: 
+20: }
+21: )
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:12:19 Expected an operand but found return
+        printName: return {"Welcome"},
+                   ^
+Unnamed:12:37 Expected an operand but found ,
+        printName: return {"Welcome"},
+                                     ^
+Unnamed:13:29 Expected ; but found :
+        printName1(firstname): return {firstname},
+                             ^
+Unnamed:13:49 Expected an operand but found ,
+        printName1(firstname): return {firstname},
+                                                 ^
+Unnamed:14:31 Expected ; but found :
+        printName2(fname,lname):
+                               ^
+Unnamed:16:14 Expected : but found +
+        fname + " " + lname
+              ^
+Unnamed:18:4 Expected ) but found }
+    }
+    ^
+Unnamed:20:0 Expected eof but found }
+}
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:59)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:254)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1201)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:59)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:29
+22:10:04.778 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:12:25.147 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:12:26.186 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:12:26.205 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746546188
+22:12:26.310 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:12:29.403 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:29.709 [main] ERROR com.intuit.karate - src/test/java/Airline/Callingjavascriptfunctions.feature:29
+* def jsutil = read("Utils/Jsutils.js")
+js failed:
+>>>>
+01: read("Utils/Jsutils.js")
+<<<<
+org.graalvm.polyglot.PolyglotException: js failed:
+>>>>
+01: (/*function(){
+02: return "Hello"
+03: }*/
+04: 
+05: /*
+06: function(name){
+07: return name
+08: }*/
+09: 
+10: function(){
+11:     return{
+12:         printName: function() { return "Welcome"},
+13:         printName1: function(firstname) {return firstname},
+14:         printName2: function((fname,lname))
+15:         {return
+16:         fname + " " + lname
+17:         }
+18:     }
+19: 
+20: }
+21: )
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:14:29 expected BindingIdentifier or BindingPattern
+        printName2: function((fname,lname))
+                             ^
+Unnamed:20:0 Expected ) but found }
+}
+^
+Unnamed:21:0 Expected ; but found )
+)
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1199)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:59)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:254)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1201)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:59)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:121)
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/Callingjavascriptfunctions.feature:29
+22:12:31.582 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:14:15.560 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:14:16.617 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:14:16.636 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746656620
+22:14:16.723 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:14:19.755 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:14:20.086 [main] INFO  com.intuit.karate - [print] Welcome 
+22:14:21.729 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:14:49.023 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:14:50.022 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:14:50.043 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746690025
+22:14:50.133 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:14:53.036 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:14:53.320 [main] INFO  com.intuit.karate - [print] Welcome 
+22:14:55.028 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:15:19.653 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:15:20.727 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:15:20.751 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746720731
+22:15:20.888 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:15:23.905 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:15:24.156 [main] INFO  com.intuit.karate - [print] Ajay 
+22:15:26.380 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:16:06.946 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:16:07.967 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:16:07.990 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746767971
+22:16:08.088 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:16:11.015 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:11.308 [main] INFO  com.intuit.karate - [print] Ajay 
+22:16:13.059 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:16:25.047 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:16:25.986 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:16:26.006 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695746785988
+22:16:26.102 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+22:16:28.891 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:29.160 [main] INFO  com.intuit.karate - [print] Ajay Lingam 
+22:16:30.853 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/Callingjavascriptfunctions.feature
+22:29:49.743 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:29:50.725 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:29:50.744 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695747590727
+22:29:50.841 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:29:53.969 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:29:54.179 [main] INFO  com.intuit.karate - [print] com.intuit.karate.graal.JsValue$SharableMembersAndInstantiable@6f94fb9d 
+22:29:55.705 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateRepeat.feature
+22:31:25.684 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:31:26.856 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:31:26.883 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695747686858
+22:31:27.009 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:31:31.134 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:31.339 [main] INFO  com.intuit.karate - [print] [
+  "Karate",
+  "Karate",
+  "Karate",
+  "Karate",
+  "Karate"
+]
+ 
+22:31:35.205 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateRepeat.feature
+22:33:55.049 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:33:56.195 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:33:56.214 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695747836197
+22:33:56.303 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+22:33:59.511 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:33:59.854 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+22:33:59.926 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+22:33:59.999 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+22:34:00.000 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+22:34:00.043 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+22:34:00.044 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+22:34:00.076 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+22:34:00.078 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+22:34:00.118 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+22:34:00.121 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+22:34:00.163 [main] INFO  com.intuit.karate - [print] [
+  {
+    "response": {
+      "username": "Vijay",
+      "Password": "Something Special"
+    }
+  },
+  {
+    "response": {
+      "username": "Vijay",
+      "Password": "Something Special"
+    }
+  },
+  {
+    "response": {
+      "username": "Vijay",
+      "Password": "Something Special"
+    }
+  },
+  {
+    "response": {
+      "username": "Vijay",
+      "Password": "Something Special"
+    }
+  },
+  {
+    "response": {
+      "username": "Vijay",
+      "Password": "Something Special"
+    }
+  }
+]
+ 
+22:34:02.833 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/KarateRepeat.feature
+22:36:40.091 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:36:41.144 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:36:41.169 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748001149
+22:36:41.266 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:36:44.336 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:36:44.556 [main] INFO  com.intuit.karate - [print] success 
+22:36:46.349 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:37:03.104 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:37:04.174 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:37:04.194 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748024177
+22:37:04.299 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:37:07.177 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:37:07.341 [main] INFO  com.intuit.karate - [print] Faliure 
+22:37:09.251 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:37:24.120 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:37:25.132 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:37:25.153 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748045135
+22:37:25.244 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:37:28.122 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:37:28.272 [main] INFO  com.intuit.karate - [print] Faliure 
+22:37:30.242 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:38:16.959 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:38:18.060 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:38:18.090 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748098062
+22:38:18.199 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:38:22.029 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:38:22.312 [main] ERROR com.intuit.karate - src/test/java/Airline/TernaryOperator.feature:6
+* print status == 200 && header == Json? 'success' : 'Faliure'
+js failed:
+>>>>
+01: karate.log('[print]',status == 200 && header == Json? 'success' : 'Faliure')
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Json" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/Airline/TernaryOperator.feature:6
+22:38:24.406 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:39:02.529 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:39:03.969 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:39:04.034 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748143971
+22:39:04.919 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:39:09.444 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:39:09.625 [main] INFO  com.intuit.karate - [print] success 
+22:39:11.644 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:41:22.608 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:41:23.715 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:41:23.740 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748283717
+22:41:23.862 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+22:41:28.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:41:29.274 [main] INFO  com.intuit.karate - [print] {
+  "username": "Vijay",
+  "Password": "Something Special"
+}
+ 
+22:41:29.465 [main] INFO  com.intuit.karate - [print] Passowrd is  Something Special 
+22:41:29.468 [main] INFO  com.intuit.karate - [print] {
+  "response": {
+    "username": "Vijay",
+    "Password": "Something Special"
+  }
+}
+ 
+22:41:32.782 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:42:09.466 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:42:11.939 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:42:12.049 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748331944
+22:42:12.465 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+22:42:18.365 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:42:19.112 [main] INFO  com.intuit.karate - [print] Faliure 
+22:42:21.975 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/TernaryOperator.feature
+22:46:09.074 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:46:10.395 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:46:10.477 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748570452
+22:46:17.472 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:17.733 [main] ERROR com.intuit.karate - src/test/java/Airline/CallOnceExample.feature:4
+Given "I am doing good "
+no step-definition method match found for: "I am doing good "
+src/test/java/Airline/CallOnceExample.feature:4
+22:46:17.820 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:17.830 [main] ERROR com.intuit.karate - src/test/java/Airline/CallOnceExample.feature:4
+Given "I am doing good "
+no step-definition method match found for: "I am doing good "
+src/test/java/Airline/CallOnceExample.feature:4
+22:46:17.935 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:17.940 [main] ERROR com.intuit.karate - src/test/java/Airline/CallOnceExample.feature:4
+Given "I am doing good "
+no step-definition method match found for: "I am doing good "
+src/test/java/Airline/CallOnceExample.feature:4
+22:46:20.053 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/Airline/CallOnceExample.feature
+22:46:50.631 [main] INFO  com.intuit.karate - Karate version: 1.4.0
+22:46:51.949 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:46:51.995 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1695748611951
+22:46:55.711 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:55.930 [main] INFO  com.intuit.karate - [print] Details are  VijaySome 
+22:46:56.250 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:56.270 [main] INFO  com.intuit.karate - [print] Details are  NareshVery Special 
+22:46:56.328 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:56.354 [main] INFO  com.intuit.karate - [print] Details are  MukeshSomething Special 
+22:46:59.789 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/Airline/CallOnceExample.feature
